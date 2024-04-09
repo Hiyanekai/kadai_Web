@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(255, 255, 138);
+    font-family:"Baskerville","Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+hr{
+    color: rgb(247, 255, 22);
+    background-color: rgb(247, 255, 22);
+    height: 3px;
+}
+
+.top{
+    width: 1060px;
+    position: relative;
+}
+
+.top img{
+    width: 100%;
+}
+
+.top .top_page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+    color: black;
+}
+
+.top button{
+    border: 1px solid black;
+    background: transparent;
+    flex-direction: column;
+    gap: 1em;
+    width: fit-content;
+    font-size: 30px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.top button:active{
+    background: #040768;
+    color: aliceblue;
+}
+
+.margin{
+    margin-left: 60px;
+}
+
+.mi{
+    margin-top: 20px;
+}
+
+/* メイン部分 */
+.main{
+    background-color: rgb(255, 251, 179);
+    width: 1040px;
+    height: 1500px;
+    margin: 10px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 9px; /* 角丸を指定する */
+}
+
+.main .img_beside_text{
+    display: flex;
+}
+
+/* 画像サイズ 左表示用*/
+.main .image_left{
+    border: 10px double rgb(212, 219, 5);
+    width: 400px;
+    height: 300px;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+/* 画像サイズ 右表示用*/
+.main .image_right{
+    border: 10px double rgb(212, 219, 5);
+    width: 400px;
+    height: 300px;
+    margin-left: 110px;
+}
+
+/* 項目　見出し 右*/
+.main .cap_display_left{
+    padding-top: 130px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.main .cap_display_left2{
+    padding-top: 88px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+/* 項目　見出し 左*/
+.main .cap_display_right{
+    padding-top: 130px;
+    margin-left: 160px;
+    font-size: 60px;
+}
+
+/* 項目　本文 表示パターンA*/
+.main .text_ptnA{
+    margin-top: 10px;
+    margin-right: 70px;
+    font-size: 25px;
+}
+
+/* 項目　本文 表示パターン*/
+.main .text_ptnB{
+    margin-top: 10px;
+    margin-right: 70px;
+    font-size: 25px;
+}
